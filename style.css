@@ -81,7 +81,8 @@ p {
 }
 
 .submain-block {
-  font-size: 15px;
+  font-size: 20px;
+  color: #2e363e;
   margin-left: 15px;
   font-weight: 200;
 }
@@ -89,6 +90,12 @@ p {
   padding-top: 115px;
   color: #2e363e;
 }
+
+.social-m-icon {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
 /* Skills block*/
 
 .skills-block {
@@ -111,10 +118,7 @@ p {
   margin-left: 50px;
   font-family: "Oswald", sans-serif;
 }
-.social-m-icon {
-  cursor: pointer;
-  margin-left: 20px;
-}
+
 .skills-num {
   right: -50px;
   position: absolute;
