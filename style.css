@@ -1,0 +1,220 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/* Header block */
+.navbar {
+  width: 100%;
+  height: 70px;
+}
+.navbar .container {
+  height: inherit;
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(64, 64, 87);
+  justify-content: center;
+  /* align-items: center; */
+}
+.navbar-menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.navbar-menu li {
+  display: inline-block;
+}
+
+.navbar-menu li a {
+  display: inline-block;
+  color: rgb(64, 64, 87);
+  text-decoration: none;
+  padding: 0 30px;
+}
+.navbar-logo {
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(64, 64, 87);
+}
+.navbar-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 50px;
+}
+
+.navbar-menu ul {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(64, 64, 87);
+  font-size: 60px;
+  margin-top: 150px;
+}
+
+p {
+  margin: 20px;
+  display: inline-block;
+  margin-top: -20px;
+}
+
+/* Main block*/
+
+.main-block {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.img-block {
+  position: absolute;
+  background-color: #2e363e;
+  color: white;
+  width: 400px;
+  height: 400px;
+  float: right;
+  top: 200px;
+  right: 215px;
+}
+
+.submain-block {
+  font-size: 15px;
+  margin-left: 15px;
+  font-weight: 200;
+}
+.social-media {
+  padding-top: 115px;
+  color: #2e363e;
+}
+/* Skills block*/
+
+.skills-block {
+  background-color: #2e363e;
+  color: white;
+  width: 100%;
+  height: 450px;
+}
+
+.skills-text {
+  font-size: 65px;
+  padding-top: 75px;
+  margin-left: 50px;
+  font-family: "Oswald", sans-serif;
+}
+.skills-text2 {
+  color: #2e363e;
+  font-size: 65px;
+  padding-top: 75px;
+  margin-left: 50px;
+  font-family: "Oswald", sans-serif;
+}
+.social-m-icon {
+  cursor: pointer;
+  margin-left: 20px;
+}
+.skills-num {
+  right: -50px;
+  position: absolute;
+  margin: -250px 400px;
+  float: right;
+  font-weight: 200;
+}
+.skills-num h5{
+  font-weight: 200;
+  font-size: 20px;
+
+}
+
+.skills-span {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+h5 {
+  font-weight: 200;
+  font-size: 20px;
+  margin: -83px 50px 50px;
+}
+h4 {
+  color: white;
+  
+}
+
+/* Portfolio block */
+
+.portfolio-block {
+  color: rgb(64, 64, 87);
+  margin-bottom: 20px;
+  margin-top: -28px;
+}
+
+.product_card_container {
+  margin: 0 200px 50px 50px;
+  min-width: 600px;
+  display: flex;
+  background: #fff;
+  border: 1px solid;
+  border-color: #2e363e;
+  border-style: solid;
+}
+
+.left {
+  width: 500px;
+  height: 500px;
+  background-color: #2e363e;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-left: 250px;
+  justify-content: center;
+  color: #2e363e;
+}
+.product_title {
+  font-size: 14px;
+}
+.item_category {
+  font-style: 16px;
+  color: var(--paragraph-color);
+  letter-spacing: 4px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+.product_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+  margin: -25px 10px 10px 20px;
+}
+.product_desctiption {
+  font-size: 15px;
+  width: 250px;
+  font-weight: 200;
+  margin: -15px 0px 0px 20px;
+}
+
+.git-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(64, 64, 87);
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+/* Footer block */
+
+.footer__copy {
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(64, 64, 87);
+}
+.footer__copy a {
+  text-decoration: underline;
+  color: inherit;
+}
