@@ -125,9 +125,9 @@ svg{
 }
 
 .skills-num {
-  right: -50px;
+  left: 45%;
   position: absolute;
-  margin: -250px 400px;
+  margin: -220px 400px;
   float: right;
   font-weight: 200;
 }
@@ -197,22 +197,24 @@ h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 30px;
-  margin-left: 20px;
-  margin: -25px 10px 10px 20px;
+  margin: -30px 20px 0px;
 }
+.product_sub_title{
+  margin: 10px 20px;
+}
+
 .product_desctiption {
-  font-size: 15px;
-  width: 250px;
+  font-size: 20px;
   font-weight: 200;
   margin: -15px 0px 0px 20px;
 }
 
-.git-link {
+.project-link {
   font-weight: bold;
   text-decoration: none;
   color: rgb(64, 64, 87);
   margin-left: 20px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /* Footer block */
