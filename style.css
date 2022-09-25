@@ -57,43 +57,48 @@ h1 {
 }
 
 p {
-  margin: 20px;
   display: inline-block;
-  margin-top: -20px;
 }
 
 /* Main block*/
 
 .main-block {
-  display: inline-block;
-  margin-left: 50px;
+  flex-direction: column;
+  margin: 50px 80px;
 }
 
 .img-block {
+  background-image: url("./image/profile.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
-  background-color: #2e363e;
-  color: white;
-  width: 400px;
-  height: 400px;
-  float: right;
+  width: 389px;
+  height: 459px;
   top: 200px;
-  right: 215px;
+  left: 65%;
+  margin: -30px;
 }
+
 
 .submain-block {
   font-size: 20px;
   color: #2e363e;
-  margin-left: 15px;
   font-weight: 200;
+  margin: 0;
 }
 .social-media {
   padding-top: 115px;
   color: #2e363e;
+  margin: 0;
 }
 
 .social-m-icon {
   cursor: pointer;
-  margin-left: 20px;
+  margin: 0;
+}
+svg{
+  margin-left: 10px;
 }
 
 /* Skills block*/
@@ -102,20 +107,20 @@ p {
   background-color: #2e363e;
   color: white;
   width: 100%;
-  height: 450px;
+  height: 500px;
 }
 
 .skills-text {
   font-size: 65px;
   padding-top: 75px;
-  margin-left: 50px;
+  margin-left: 80px;
   font-family: "Oswald", sans-serif;
 }
 .skills-text2 {
   color: #2e363e;
   font-size: 65px;
   padding-top: 75px;
-  margin-left: 50px;
+  margin-left: 80px;
   font-family: "Oswald", sans-serif;
 }
 
@@ -140,7 +145,7 @@ p {
 h5 {
   font-weight: 200;
   font-size: 20px;
-  margin: -83px 50px 50px;
+  margin: -83px 80px 50px;
 }
 h4 {
   color: white;
@@ -156,7 +161,7 @@ h4 {
 }
 
 .product_card_container {
-  margin: 0 200px 50px 50px;
+  margin: 0 200px 30px 80px;
   min-width: 600px;
   display: flex;
   background: #fff;
@@ -213,7 +218,7 @@ h4 {
 /* Footer block */
 
 .footer__copy {
-  margin-left: 50px;
+  margin-left: 80px;
   font-weight: bold;
   font-size: 20px;
   color: rgb(64, 64, 87);
