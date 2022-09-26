@@ -229,3 +229,12 @@ h4 {
   text-decoration: underline;
   color: inherit;
 }
+
+
+@media screen and (max-width: 1700px) {
+  .skills-num,h5{
+    font-size: 10px;
+    width: 200px;
+   
+  }
+}
